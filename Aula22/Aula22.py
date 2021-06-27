@@ -23,7 +23,7 @@ while True:
     digitadas.append(letra)
 
     if letra in secreto:
-        print(f'UHUULLL, a letra "{letra}" existe na palavra secreta.')
+        banana(f'UHUULLL, a letra "{letra}" existe na palavra secreta.')
     else:
         print(f'AFFFzzz: a letra "{letra}" NÃO EXISTE na palavra secreta.')
         digitadas.pop()
